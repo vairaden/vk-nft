@@ -1,0 +1,50 @@
+#createCollectionCard {
+    margin-top: 8rem;
+    padding: 0.5rem;
+    padding-top: 8rem;
+
+    #trophyImage {
+        position: absolute;
+        top: -14rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.cardGrid {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.noWrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+}
+
+.flexColContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.tabs {
+    margin-bottom: 0.5rem;
+}
+
+// .primaryButton {
+//     background-color: #5965B3 !important;
+// }

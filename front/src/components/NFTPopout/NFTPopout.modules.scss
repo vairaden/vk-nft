@@ -1,0 +1,22 @@
+#popoutCard {
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    h3 {
+        margin-top: 0;
+    }
+    img {
+        width: 16rem;
+        position: absolute;
+        top: -12rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
